@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${oswald.variable}`}>
+    <html lang="es" className={`${oswald.variable}`}>
       <body className="antialiased">
         <CustomNavbar />
         {children}

@@ -11,7 +11,7 @@ import {PRODUCTOS} from "../resources/constants";
 export default function ProductSlider() {
   return (
     <div className="flex flex-col w-full py-8">
-      <h1 className="text-center text-5xl  text-primario-300 font-semibold">
+      <h1 className="text-center text-4xl  text-primario-300 font-semibold">
         NUESTROS PRODUCTOS
       </h1>
       <Divider className="bg-secundario-300 my-10 w-1/12 self-center h-[2px]" />
@@ -37,7 +37,7 @@ export default function ProductSlider() {
             <p className="bg-blanco px-2 py-1 text-primario-300 text-lg">
               Aprende a hacer tu mate como un experto
             </p>
-            <h1 className="text-5xl font-semibold text-blanco">
+            <h1 className="text-4xl font-semibold text-blanco">
               SECRETOS DEL GAUCHO
             </h1>
             <Button
@@ -53,7 +53,7 @@ export default function ProductSlider() {
             <p className="bg-blanco px-2 py-1 text-primario-300 text-lg">
               Conoce todo lo que podes encontrar en nuestros locales
             </p>
-            <h1 className="text-5xl font-semibold text-blanco">
+            <h1 className="text-4xl font-semibold text-blanco">
               NUESTROS MATES
             </h1>
             <Button
