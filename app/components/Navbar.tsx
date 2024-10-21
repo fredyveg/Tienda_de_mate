@@ -16,6 +16,7 @@ import {
 } from "@nextui-org/react";
 
 // Utils
+import {useWindowSize} from "@/hooks/useWindowSize";
 import {NAVBAR_ITEMS} from "../resources/constants";
 
 // Navegacion
@@ -26,6 +27,9 @@ export default function CustomNavbar() {
 
   // Con esto podemos ver la url actual.
   const pathname = usePathname();
+
+  // Hook personalizado para revisar el ancho y alto de la ventana
+  const {width, height} = useWindowSize();
 
   return (
     <Navbar
@@ -47,7 +51,11 @@ export default function CustomNavbar() {
       </NavbarContent>
       <NavbarContent className="hidden xl:flex flex-row gap-96 pl-20">
         <div>
-          <NavbarBrand className="flex flex-col cursor-pointer select-none">
+          <NavbarBrand
+            className="flex flex-col cursor-pointer select-none text-blanco"
+            as={Link}
+            href={width > 1280 ? "/" : "#"}
+          >
             <p className="font-semibold text-inherit text-3xl">TIENDA</p>
             <p className="font-normal text-inherit text-2xl">DE MATE</p>
           </NavbarBrand>
