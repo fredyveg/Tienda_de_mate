@@ -20,16 +20,22 @@ export default function CustomFooter() {
               <h5 className="text-secundario-300 text-lg font-medium">
                 CONTENIDOS
               </h5>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link href="/" className="text-blanco/70 font-extralight">
                 Inicio
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link
+                href="/nuestro-mate"
+                className="text-blanco/70 font-extralight"
+              >
                 Nuestro Mate
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link href="/" className="text-blanco/70 font-extralight">
                 Locales
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link
+                href="/nuestro-menu"
+                className="text-blanco/70 font-extralight"
+              >
                 Nuestro Menu
               </Link>
             </div>
@@ -37,16 +43,25 @@ export default function CustomFooter() {
               <h5 className="text-secundario-300 text-lg font-medium">
                 NECESITAS AYUDA
               </h5>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link
+                href="/tutoriales"
+                className="text-blanco/70 font-extralight"
+              >
                 Tutoriales
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link
+                href="/trabaja-con-nosotros"
+                className="text-blanco/70 font-extralight"
+              >
                 Trabaja en TDM
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link
+                href="/franquicias"
+                className="text-blanco/70 font-extralight"
+              >
                 Franquicias
               </Link>
-              <Link href="#" className="text-blanco/70 font-extralight">
+              <Link href="/contacto" className="text-blanco/70 font-extralight">
                 Contacto
               </Link>
             </div>
