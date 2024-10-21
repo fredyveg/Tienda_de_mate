@@ -2,6 +2,18 @@ import {nextui} from "@nextui-org/theme";
 import type {Config} from "tailwindcss";
 
 const config: Config = {
+  safelist: [
+    "bg-[#6B4226]",
+    "bg-[#4CAF50]",
+    "bg-[#2E7D32]",
+    "bg-[#FFC107]",
+    "bg-[#FF5722]",
+    "bg-[#00BCD4]",
+    "bg-[#FFEB3B]",
+    "bg-[#795548]",
+    "bg-[#FF9800]",
+    "bg-[#37474F]",
+  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",

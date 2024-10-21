@@ -15,18 +15,30 @@ export default function ProductSlider() {
         NUESTROS PRODUCTOS
       </h1>
       <Divider className="bg-secundario-300 my-10 w-4/12 xl:w-1/12 self-center h-[2px]" />
-      <div className="overflow-x-auto scrollbar-hide">
+      <div className="overflow-x-auto">
         <div className="flex space-x-5">
           {PRODUCTOS.map((product) => (
             <div
               key={product.id}
-              className="flex-shrink-0 bg-white rounded-lg p-4"
+              className="relative flex-shrink-0 bg-white rounded-lg p-4 group"
             >
-              <img src={product.image} className="mb-2 w-64 h-64" />
+              <img
+                src={product.image}
+                className="mb-2 w-64 h-64 object-cover rounded-lg group-hover:opacity-50 transition-opacity duration-300"
+              />
 
               <h3 className="text-lg font-semibold text-primario-300 text-center">
                 {product.name}
               </h3>
+
+              {/* Texto y fondo sobre la imagen */}
+              <div
+                className={`absolute inset-0 ${product.color} bg-opacity-50 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-10`}
+              >
+                <span className="text-base font-medium text-primario-300">
+                  {product.description}
+                </span>
+              </div>
             </div>
           ))}
         </div>
