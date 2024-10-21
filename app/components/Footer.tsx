@@ -11,7 +11,7 @@ export default function CustomFooter() {
     <footer>
       <Card className="rounded-none">
         <CardBody className="flex flex-col bg-primario-500 px-0">
-          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-5 xl:gap-0 py-10 px-4 xl:px-20 xl:px-56 text-center xl:text-start">
+          <div className="flex flex-col xl:flex-row w-full xl:justify-between gap-5 xl:gap-0 py-10 px-4 xl:px-56 text-center xl:text-start">
             <div className="flex flex-col text-center">
               <p className="font-semibold text-inherit text-3xl">TIENDA</p>
               <p className="font-normal text-inherit text-2xl">DE MATE</p>
@@ -82,7 +82,7 @@ export default function CustomFooter() {
             </div>
           </div>
           <Divider className="bg-primario-50/25" />
-          <div className="flex flex-col text-blanco/70 text-xs font-thin gap-1 pt-4 pb-2 px-4 xl:px-20 xl:px-56 text-center xl:text-start">
+          <div className="flex flex-col text-blanco/70 text-xs font-thin gap-1 pt-4 pb-2 px-4 xl:px-56 text-center xl:text-start">
             <p>© Copyright 2024 Tienda de Mate - Ningun derecho reservado.</p>
             <p>
               Ningun logo, producto, marca y nombre aqui utilizados son

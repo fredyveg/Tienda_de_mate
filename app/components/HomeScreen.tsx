@@ -82,7 +82,7 @@ export default function HomeScreen() {
         ))}
       </div>
 
-      <div className="flex flex-col px-4 xl:px-20 xl:px-56">
+      <div className="flex flex-col px-4 xl:px-56">
         <ProductSlider />
       </div>
       <div className="flex flex-col">

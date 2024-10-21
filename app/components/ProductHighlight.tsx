@@ -18,7 +18,7 @@ export default function ProductHighlight() {
               ¿CUÁL VAS A ELEGIR HOY?
             </h1>
             <Divider className="bg-secundario-300 my-10 w-4/12 xl:w-1/12 self-center h-[2px]" />
-            <div className="flex flex-col xl:flex-row gap-10 px-4 xl:px-20 xl:px-56">
+            <div className="flex flex-col xl:flex-row gap-10 px-4 xl:px-56">
               <div className="flex flex-col text-center xl:text-end gap-5">
                 <div className="flex flex-col">
                   <h3 className="text-secundario-300 text-2xl">
