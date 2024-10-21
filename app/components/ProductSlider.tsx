@@ -33,7 +33,7 @@ export default function ProductSlider() {
 
               {/* Texto y fondo sobre la imagen */}
               <div
-                className={`absolute inset-0 ${product.color} bg-opacity-50 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-10`}
+                className={`absolute inset-0 ${product.color} bg-opacity-50 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg p-10 m-4 h-[80%]`}
               >
                 <span className="text-base font-medium text-primario-300">
                   {product.description}
