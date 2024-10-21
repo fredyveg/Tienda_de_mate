@@ -47,27 +47,42 @@ export default function HomeScreen() {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img src={image} className="main-banner object-cover" alt="Slide" />
+            <img
+              src={image}
+              className="main-banner object-cover "
+              alt="Slide"
+            />
+
             <Button
               size="sm"
               startContent={<p> &#10094;</p>}
               isIconOnly
               onClick={prevSlide}
-              className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-primario-500 text-white px-2 py-1"
+              className="hidden xl:block absolute top-1/2 left-2 transform -translate-y-1/2 bg-primario-500 text-white px-2 py-1"
             />
-
+            <div className="z-10 absolute top-7 left-4 xl:top-64 xl:left-56 flex flex-col gap-3">
+              <h2 className="text-2xl xl:text-5xl text-blanco font-light">
+                Desde 2024
+              </h2>
+              <h1 className="text-4xl xl:text-7xl text-blanco font-bold">
+                CEBANDO TU MATE
+              </h1>
+              <p className="text-lg xl:text-xl text-blanco font-light">
+                No hace falta experiencia para disfrutar de un buen mate.
+              </p>
+            </div>
             <Button
               size="sm"
               startContent={<p> &#10095;</p>}
               isIconOnly
               onClick={nextSlide}
-              className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-primario-500 text-white px-2 py-1"
+              className="hidden xl:block absolute top-1/2 right-2 transform -translate-y-1/2 bg-primario-500 text-white px-2 py-1"
             />
           </div>
         ))}
       </div>
 
-      <div className="flex flex-col px-4 sm:px-20 xl:px-56">
+      <div className="flex flex-col px-4 xl:px-20 xl:px-56">
         <ProductSlider />
       </div>
       <div className="flex flex-col">

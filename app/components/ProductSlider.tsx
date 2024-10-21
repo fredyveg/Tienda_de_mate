@@ -10,11 +10,11 @@ import {PRODUCTOS} from "../resources/constants";
 
 export default function ProductSlider() {
   return (
-    <div className="flex flex-col w-full pt-72 sm:py-8 ">
+    <div className="flex flex-col w-full pt-72 xl:py-8 ">
       <h1 className="text-center text-4xl  text-primario-300 font-semibold">
         NUESTROS PRODUCTOS
       </h1>
-      <Divider className="bg-secundario-300 my-10 w-4/12 sm:w-1/12 self-center h-[2px]" />
+      <Divider className="bg-secundario-300 my-10 w-4/12 xl:w-1/12 self-center h-[2px]" />
       <div className="overflow-x-auto scrollbar-hide">
         <div className="flex space-x-5">
           {PRODUCTOS.map((product) => (
@@ -31,7 +31,7 @@ export default function ProductSlider() {
           ))}
         </div>
       </div>
-      <div className="flex flex-col sm:flex-row w-full py-10 gap-8">
+      <div className="flex flex-col xl:flex-row w-full py-10 gap-8">
         <Card className="w-full h-96 rounded-none shadow-none bg-cover bg-[url('https://yerbamateargentina.org.ar/imagenes/archivos/noticias/79192_imagen_1227x747xrecortarxagrandar.jpg?random=1615376832')]">
           <CardBody className="flex flex-col justify-end gap-4 items-start p-8">
             <p className="bg-blanco px-2 py-1 text-primario-300 text-lg">

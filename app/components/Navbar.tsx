@@ -34,18 +34,18 @@ export default function CustomNavbar() {
       onMenuOpenChange={setIsMenuOpen}
       className="py-2 flex flex-row bg-primario-500 font-normal"
     >
-      <NavbarContent className="sm:hidden" justify="start">
+      <NavbarContent className="xl:hidden" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
       </NavbarContent>
-      <NavbarContent className="sm:hidden pr-3" justify="start">
+      <NavbarContent className="xl:hidden pr-3" justify="start">
         <NavbarBrand className="flex flex-col">
           <p className="font-bold text-inherit text-3xl">TIENDA</p>
           <p className="font-medium text-inherit text-3xl">DE MATE</p>
         </NavbarBrand>
       </NavbarContent>
-      <NavbarContent className="hidden sm:flex flex-row gap-96 pl-20">
+      <NavbarContent className="hidden xl:flex flex-row gap-96 pl-20">
         <div>
           <NavbarBrand className="flex flex-col cursor-pointer select-none">
             <p className="font-semibold text-inherit text-3xl">TIENDA</p>
