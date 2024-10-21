@@ -15,7 +15,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "¡El sabor de la tradición en cada sorbo! Si buscas una experiencia auténtica, la Yerba Mate Clásica es para ti. Perfecta para cualquier momento del día, con el equilibrio ideal de amargor y frescura.",
+      "¡EL SABOR DE LA TRADICIÓN EN CADA SORBO! SI BUSCAS UNA EXPERIENCIA AUTÉNTICA, LA YERBA MATE CLÁSICA ES PARA TI. PERFECTA PARA CUALQUIER MOMENTO DEL DÍA, CON EL EQUILIBRIO IDEAL DE AMARGOR Y FRESCURA.",
     color: "bg-[#6B4226]",
   },
   {
@@ -24,7 +24,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Un toque herbal para revitalizarte. Esta combinación de yerba mate con hierbas seleccionadas te dará un impulso extra, ideal para comenzar el día con energía renovada y una frescura natural.",
+      "UN TOQUE HERBAL PARA REVITALIZARTE. ESTA COMBINACIÓN DE YERBA MATE CON HIERBAS SELECCIONADAS TE DARÁ UN IMPULSO EXTRA, IDEAL PARA COMENZAR EL DÍA CON ENERGÍA RENOVADA Y UNA FRESCURA NATURAL.",
     color: "bg-[#4CAF50]",
   },
   {
@@ -33,7 +33,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Natural y pura, tal como la naturaleza la ofrece. Cultivada sin pesticidas ni aditivos, esta yerba mate es ideal para quienes buscan un estilo de vida saludable, respetando el medio ambiente en cada mate.",
+      "NATURAL Y PURA, TAL COMO LA NATURALEZA LA OFRECE. CULTIVADA SIN PESTICIDAS NI ADITIVOS, ESTA YERBA MATE ES IDEAL PARA QUIENES BUSCAN UN ESTILO DE VIDA SALUDABLE, RESPETANDO EL MEDIO AMBIENTE EN CADA MATE.",
     color: "bg-[#2E7D32]",
   },
   {
@@ -42,7 +42,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "El equilibrio perfecto entre suavidad y sabor. Disfruta de un mate más suave al paladar sin perder el gusto tradicional. Perfecta para quienes prefieren un mate más ligero pero lleno de sabor.",
+      "EL EQUILIBRIO PERFECTO ENTRE SUAVIDAD Y SABOR. DISFRUTA DE UN MATE MÁS SUAVE AL PALADAR SIN PERDER EL GUSTO TRADICIONAL. PERFECTA PARA QUIENES PREFIEREN UN MATE MÁS LIGERO PERO LLENO DE SABOR.",
     color: "bg-[#FFC107]",
   },
   {
@@ -51,7 +51,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "¡Poder en cada sorbo! Ideal para los que buscan un impulso extra en su día, esta yerba está diseñada para darte energía y concentración, sin dejar de lado el sabor tradicional.",
+      "¡PODER EN CADA SORBO! IDEAL PARA LOS QUE BUSCAN UN IMPULSO EXTRA EN SU DÍA, ESTA YERBA ESTÁ DISEÑADA PARA DARTE ENERGÍA Y CONCENTRACIÓN, SIN DEJAR DE LADO EL SABOR TRADICIONAL.",
     color: "bg-[#FF5722]",
   },
   {
@@ -60,7 +60,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Refrescante y vigorizante. La frescura de la menta se combina a la perfección con la yerba mate, creando una mezcla perfecta para disfrutar en días calurosos o para refrescar tu mente.",
+      "REFRESCANTE Y VIGORIZANTE. LA FRESCURA DE LA MENTA SE COMBINA A LA PERFECCIÓN CON LA YERBA MATE, CREANDO UNA MEZCLA PERFECTA PARA DISFRUTAR EN DÍAS CALUROSOS O PARA REFRESCAR TU MENTE.",
     color: "bg-[#00BCD4]",
   },
   {
@@ -69,7 +69,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Ácido, refrescante y único. El toque cítrico del limón aporta una nueva dimensión de frescura a tu mate, haciéndolo la elección perfecta para quienes disfrutan de sabores vibrantes y refrescantes.",
+      "ÁCIDO, REFRESCANTE Y ÚNICO. EL TOQUE CÍTRICO DEL LIMÓN APORTA UNA NUEVA DIMENSIÓN DE FRESCURA A TU MATE, HACIÉNDOLO LA ELECCIÓN PERFECTA PARA QUIENES DISFRUTAN DE SABORES VIBRANTES Y REFRESCANTES.",
     color: "bg-[#FFEB3B]",
   },
   {
@@ -78,7 +78,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Pura, intensa y sin palos. Esta yerba mate está compuesta exclusivamente por hojas, lo que le otorga un sabor más fuerte e intenso. Ideal para los amantes de un mate puro y poderoso.",
+      "PURA, INTENSA Y SIN PALOS. ESTA YERBA MATE ESTÁ COMPUESTA EXCLUSIVAMENTE POR HOJAS, LO QUE LE OTORGA UN SABOR MÁS FUERTE E INTENSO. IDEAL PARA LOS AMANTES DE UN MATE PURO Y PODEROSO.",
     color: "bg-[#795548]",
   },
   {
@@ -87,7 +87,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Picante y energizante. Una combinación única de yerba mate con el toque picante del jengibre, perfecta para quienes buscan una bebida revitalizante y llena de sabor.",
+      "PICANTE Y ENERGIZANTE. UNA COMBINACIÓN ÚNICA DE YERBA MATE CON EL TOQUE PICANTE DEL JENGIBRE, PERFECTA PARA QUIENES BUSCAN UNA BEBIDA REVITALIZANTE Y LLENA DE SABOR.",
     color: "bg-[#FF9800]",
   },
   {
@@ -96,7 +96,7 @@ export const PRODUCTOS = [
     image:
       "https://th.bing.com/th/id/OIG4.6lddpQ20ThHlooDWB5z1?w=1024&h=1024&rs=1&pid=ImgDetMain",
     description:
-      "Una experiencia de sabor intensa. Con un sabor robusto y ahumado, esta yerba mate es ideal para aquellos que buscan una experiencia más profunda y compleja en cada mate.",
+      "UNA EXPERIENCIA DE SABOR INTENSA. CON UN SABOR ROBUSTO Y AHUMADO, ESTA YERBA MATE ES IDEAL PARA AQUELLOS QUE BUSCAN UNA EXPERIENCIA MÁS PROFUNDA Y COMPLEJA EN CADA MATE.",
     color: "bg-[#37474F]",
   },
 ];
