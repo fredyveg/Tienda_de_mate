@@ -17,9 +17,9 @@ export default function ProductHighlight() {
             <h1 className="text-4xl text-primario-300 font-semibold text-center">
               ¿CUÁL VAS A ELEGIR HOY?
             </h1>
-            <Divider className="bg-secundario-300 my-10 w-1/12 self-center h-[2px]" />
-            <div className="flex flex-row gap-10 px-56">
-              <div className="flex flex-col text-end gap-5">
+            <Divider className="bg-secundario-300 my-10 w-4/12 sm:w-1/12 self-center h-[2px]" />
+            <div className="flex flex-col sm:flex-row gap-10 px-4 sm:px-20 xl:px-56">
+              <div className="flex flex-col text-center sm:text-end gap-5">
                 <div className="flex flex-col">
                   <h3 className="text-secundario-300 text-2xl">
                     YERBA MATE CLÁSICA
@@ -81,9 +81,9 @@ export default function ProductHighlight() {
               </div>
               <img
                 src="https://elboyero.com/16118-large_default/mate-artesanal-diseno-flores-y-hojas-el-boyero.jpg"
-                className="h-[650px] w-[650px] bg-cover"
+                className="sm:h-[650px] sm:w-[650px] bg-cover"
               />
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col gap-5 text-center sm:text-start">
                 <div className="flex flex-col">
                   <h3 className="text-secundario-300 text-2xl">
                     YERBA MATE CON MENTA
