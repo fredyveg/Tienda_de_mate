@@ -72,10 +72,26 @@ export default function CustomFooter() {
                 CONECTATE CON NOSOTROS
               </h5>
               <div className="flex flex-row gap-4 justify-center xl:justify-start">
-                <div className="bg-primario-200 rounded-full p-1 flex ">
+                <div
+                  className="bg-primario-200 rounded-full p-1 flex cursor-pointer"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/marcosmonaco/tiendademate",
+                      "_blank"
+                    )
+                  }
+                >
                   <img src="/images/svg/facebook.svg" height={25} width={25} />
                 </div>
-                <div className="bg-primario-200 rounded-full p-1 flex ">
+                <div
+                  className="bg-primario-200 rounded-full p-1 flex cursor-pointer"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/marcosmonaco/tiendademate",
+                      "_blank"
+                    )
+                  }
+                >
                   <img src="/images/svg/instagram.svg" height={25} width={25} />
                 </div>
               </div>
