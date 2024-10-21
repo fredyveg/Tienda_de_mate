@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from "react";
 
 // NextUI
-import {Button, Card, CardBody} from "@nextui-org/react";
+import {Button} from "@nextui-org/react";
 import ProductSlider from "./ProductSlider";
 import ProductHighlight from "./ProductHighlight";
 
