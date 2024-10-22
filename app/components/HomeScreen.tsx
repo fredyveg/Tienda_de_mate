@@ -10,7 +10,7 @@ import ProductHighlight from "./ProductHighlight";
 export default function HomeScreen() {
   const images = [
     "https://www.cucinare.tv/wp-content/uploads/2021/11/Mate.jpg",
-    "https://editorial.foodandwineespanol.com/wp-content/uploads/2022/06/mate-destacada-.webp",
+    "https://chasdomundo.pt/blog/wp-content/uploads/2023/08/erva-mate-chimarrao-terere-yerba-mate-chas-do-mundo.jpg",
     "https://www.guiaoleo.com.ar/wp-content/uploads/2024/03/bebidas-argentinas-1-1.jpeg",
   ];
 
