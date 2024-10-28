@@ -36,7 +36,7 @@ export default function CustomNavbar() {
       maxWidth="full"
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="py-2 flex flex-row bg-primario-500 font-normal"
+      className="py-2 flex flex-row bg-primario-500 font-normal text-blanco"
     >
       <NavbarContent className="xl:hidden" justify="start">
         <NavbarMenuToggle
@@ -63,11 +63,12 @@ export default function CustomNavbar() {
         <div className="flex flex-row gap-11 self-center">
           {NAVBAR_ITEMS.map((item, index) => (
             <NavbarItem
+              className="text-blanco"
               key={`${item}-${index}`}
               isActive={pathname === item.path}
             >
               <Link
-                className="w-full"
+                className="w-full text-blanco"
                 color="foreground"
                 href={item.path}
                 size="lg"
