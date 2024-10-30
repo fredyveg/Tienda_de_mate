@@ -1,9 +1,10 @@
-// Componentes
+// Se Importa los componentes
+import { InputField, Header, WorkWithUs } from '../components/WorkWithUs';
 
-export default function WorkWithUs() {
+export default function WorkWithUsPage() { 
   return (
-    <div className="min-h-screen bg-white">
-      <main className="flex">Trabaja con nosotros</main>
+    <div>
+      <WorkWithUs />
     </div>
   );
 }
