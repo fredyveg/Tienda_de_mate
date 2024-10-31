@@ -1,11 +1,10 @@
 // Titulos que se utilizan en la barra de navegacion
 export const NAVBAR_ITEMS = [
-  {label: "NUESTRO MATE", path: "/nuestro-mate"},
-  {label: "TUTORIALES", path: "/tutoriales"},
-  {label: "NUESTRO MENU", path: "/nuestro-menu"},
-  {label: "TRABAJA CON NOSOTROS", path: "/trabaja-con-nosotros"},
-  {label: "FRANQUICIAS", path: "/franquicias"},
-  {label: "CONTACTO", path: "/contacto"},
+  { label: "NUESTRO MATE", path: "/nuestro-mate" },
+  { label: "TUTORIALES", path: "/tutoriales" },
+  { label: "TRABAJA CON NOSOTROS", path: "/trabaja-con-nosotros" },
+  { label: "FRANQUICIAS", path: "/franquicias" },
+  { label: "CONTACTO", path: "/contacto" },
 ];
 
 export const PRODUCTOS = [

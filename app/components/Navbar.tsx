@@ -1,7 +1,7 @@
 "use client";
 
 // React
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 // Next UI
 import {
@@ -16,11 +16,11 @@ import {
 } from "@nextui-org/react";
 
 // Utils
-import {useWindowSize} from "@/hooks/useWindowSize";
-import {NAVBAR_ITEMS} from "../resources/constants";
+import { useWindowSize } from "@/hooks/useWindowSize";
+import { NAVBAR_ITEMS } from "../resources/constants";
 
 // Navegacion
-import {usePathname} from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function CustomNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +29,7 @@ export default function CustomNavbar() {
   const pathname = usePathname();
 
   // Hook personalizado para revisar el ancho y alto de la ventana
-  const {width, height} = useWindowSize();
+  const { width, height } = useWindowSize();
 
   return (
     <Navbar
@@ -83,11 +83,12 @@ export default function CustomNavbar() {
       <NavbarMenu>
         {NAVBAR_ITEMS.map((item, index) => (
           <NavbarMenuItem
+            className="text-blanco drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] pt-4"
             key={`${item}-${index}`}
             isActive={pathname === item.path}
           >
             <Link
-              className="w-full"
+              className="w-full text-blanco"
               color={pathname === item.path ? "warning" : "foreground"}
               href={item.path}
               size="lg"

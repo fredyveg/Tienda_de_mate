@@ -3,7 +3,14 @@
 import React from "react";
 
 // NextUI
-import {Button, Card, CardBody, Chip, Divider, Input} from "@nextui-org/react";
+import {
+  Button,
+  Card,
+  CardBody,
+  Chip,
+  Divider,
+  Input,
+} from "@nextui-org/react";
 import Link from "next/link";
 
 export default function CustomFooter() {
@@ -31,12 +38,6 @@ export default function CustomFooter() {
               </Link>
               <Link href="/" className="text-blanco/70 font-extralight">
                 Locales
-              </Link>
-              <Link
-                href="/nuestro-menu"
-                className="text-blanco/70 font-extralight"
-              >
-                Nuestro Menu
               </Link>
             </div>
             <div className="flex flex-col gap-4">
