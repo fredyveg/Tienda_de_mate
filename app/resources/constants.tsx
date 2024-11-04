@@ -16,7 +16,7 @@ export const PRODUCTOS = [
       "https://www.matemundo.es/hpeciai/1e733d3a2db28f647fe223010363cfda/pol_il_8104-8104.webp",
     description:
       "¡EL SABOR DE LA TRADICIÓN EN CADA SORBO! SI BUSCAS UNA EXPERIENCIA AUTÉNTICA, LA YERBA MATE CLÁSICA ES PARA TI. PERFECTA PARA CUALQUIER MOMENTO DEL DÍA, CON EL EQUILIBRIO IDEAL DE AMARGOR Y FRESCURA.",
-    color: "bg-[#eafad7]",
+    color: "bg-[#a1ff8a]",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const PRODUCTOS = [
       "https://www.matemundo.es/hpeciai/ee62cdbd95e7f4d4bee6ea1da050b538/pol_il_7275-7275.webp",
     description:
       "UN TOQUE HERBAL PARA REVITALIZARTE. ESTA COMBINACIÓN DE YERBA MATE CON HIERBAS SELECCIONADAS TE DARÁ UN IMPULSO EXTRA, IDEAL PARA COMENZAR EL DÍA CON ENERGÍA RENOVADA Y UNA FRESCURA NATURAL.",
-    color: "bg-[#c0f584]",
+    color: "bg-[#00b052]",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const PRODUCTOS = [
       "https://www.matemundo.es/hpeciai/db2a234433c9da81cc46cba87c0eac20/pol_il_5713-5713.webp",
     description:
       "NATURAL Y PURA, TAL COMO LA NATURALEZA LA OFRECE. CULTIVADA SIN PESTICIDAS NI ADITIVOS, ESTA YERBA MATE ES IDEAL PARA QUIENES BUSCAN UN ESTILO DE VIDA SALUDABLE, RESPETANDO EL MEDIO AMBIENTE EN CADA MATE.",
-    color: "bg-[#446125]",
+    color: "bg-[#0b3b00]",
   },
   {
     id: 4,
