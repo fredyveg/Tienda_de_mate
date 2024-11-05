@@ -91,3 +91,19 @@ export const PRODUCTOS = [
     color: "bg-[#b7ff00]",
   },
 ];
+
+export const MENU_PRODUCTOS = [
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/cheesecake_large.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/chocotorta.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/budin_naranja.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/cuadrados_1.1-1230x1125.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/alfajores.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/sandwich.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/02-salmon-3-platos.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/bondiola.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/DSC3028-2-1230x1122.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/05/arroz02.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/04/menu01_1200x680_Mesa-de-trabajo-1.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/04/menu03_1200x680_Mesa-de-trabajo-1.jpg",
+  "https://tiendadecafe.com.ar/wp-content/uploads/2021/04/menu02_1200x680_Mesa-de-trabajo-1.jpg",
+];
