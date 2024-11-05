@@ -3,7 +3,7 @@
 import React from "react";
 
 // NextUI
-import {Button, Card, CardBody, Chip, Divider, Input} from "@nextui-org/react";
+import {Button, Card, CardBody, Divider, Input} from "@nextui-org/react";
 import Link from "next/link";
 
 export default function CustomFooter() {
