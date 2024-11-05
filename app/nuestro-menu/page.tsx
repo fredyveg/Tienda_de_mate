@@ -1,9 +1,10 @@
-// Componentes
+// Importa el componente OurMenu
+import OurMenu from "../components/OurMenu";
 
-export default function OurMenu() {
+export default function Page() {
   return (
-    <div className="min-h-screen bg-white">
-      <main className="flex">tutoriales</main>
-    </div>
+    <main>
+      <OurMenu />
+    </main>
   );
 }

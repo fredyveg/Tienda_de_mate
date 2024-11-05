@@ -32,7 +32,7 @@ export default function OurMatePage() {
 
           {/* Texto y fondo sobre la imagen */}
           <div
-            className={`absolute inset-0 ${product.color} bg-opacity-50 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg px-10 py-5 m-4 h-[80%]`}
+            className={`absolute inset-0 ${product.color} bg-opacity-20 flex items-start justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg px-10 py-5 m-4 h-[80%]`}
           >
             <span className="text-base font-normal text-primario-300">
               {product.description}
