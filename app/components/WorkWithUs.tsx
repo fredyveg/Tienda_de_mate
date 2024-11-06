@@ -15,7 +15,7 @@ function InputField({ placeholder, type = "text" }: InputFieldProps) {
 }
 // Componente reutilizable para encabezado
 interface HeaderProps {
-  subtitle: string;
+  subtitle: string  ;
   title: string;
   description: string;
 }
@@ -25,7 +25,7 @@ function Header({ subtitle, title, description }: HeaderProps) {
     <div className="text-center mb-6">
       <p className="text-sm text-gray-500">{subtitle}</p>
       <h1 className="text-3xl font-bold text-gray-800 mt-2 mb-4">{title}</h1>
-      <div className="bg-amber-500 h-0.5 w-16 mx-auto" />
+      <div className="bg-secundario-300 h-0.5 w-16 mx-auto" />
       <p className="text-gray-600 mt-4">{description}</p>
     </div>
   );
