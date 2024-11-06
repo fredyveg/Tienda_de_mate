@@ -2,16 +2,13 @@
 // React
 import React from "react";
 
-// NextUI
-import {Button, Divider, Input, Textarea} from "@nextui-org/react";
-
 // Utils
 import {PRODUCTOS} from "../resources/constants";
 import {useWindowSize} from "@/hooks/useWindowSize";
 
 export default function OurMatePage() {
   // Hook personalizado para revisar el ancho y alto de la ventana
-  const {width, height} = useWindowSize();
+  const {width} = useWindowSize();
 
   return (
     <div
