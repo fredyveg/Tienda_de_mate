@@ -1,7 +1,7 @@
 // Se Importa los componentes
-import { InputField, Header, WorkWithUs } from '../components/WorkWithUs';
+import {WorkWithUs} from "../components/WorkWithUs";
 
-export default function WorkWithUsPage() { 
+export default function WorkWithUsPage() {
   return (
     <div>
       <WorkWithUs />

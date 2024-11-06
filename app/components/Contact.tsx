@@ -10,7 +10,7 @@ import {useWindowSize} from "@/hooks/useWindowSize";
 
 export default function ContactPage() {
   // Hook personalizado para revisar el ancho y alto de la ventana
-  const {width, height} = useWindowSize();
+  const {width} = useWindowSize();
 
   return (
     <div className="flex flex-col xl:flex-row w-full py-10 justify-around gap-10 px-4 xl:px-56">
