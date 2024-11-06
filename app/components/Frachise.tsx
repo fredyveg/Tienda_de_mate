@@ -6,7 +6,8 @@ export default function Franchise() {
     return (
         <div className="bg-white min-h-screen flex flex-col items-center py-10 px-4">
             <main className="w-full max-w-3xl bg-transparent rounded-lg shadow-none p-6">
-
+                
+                {/* Header*/}
                 <div className="text-center mb-6">
                     <div className="text-lg text-[#c7a17a] text-opacity-0.5 font-light">
                         <span>{`CONOCÉ TODAS LAS OPCIONES`}</span>
@@ -16,15 +17,14 @@ export default function Franchise() {
                         <strong className="text-3xl font-bold text-gray-800">CONVERTITE EN FRANQUICIADO                        </strong>
                     </div>
 
-                    <div className="bg-secundario-300 h-0.5 w-16 mx-auto" style={{ height: '0.15rem' }}/>
-                    
+                    <div className="bg-secundario-300 h-0.5 w-16 mx-auto" style={{ height: '0.15rem' }} />
+
                     <div className="mt-3">
                         <span className="text-gray-600">
                             Querés ser parte de este equipo? Dejanos tus datos para recibir mas información, y nos pondremos en contacto para contarte todas las posibilidades de tu próxima franquicia Tienda de Mate!
                         </span>
                     </div>
                 </div>
-
 
                 <form className="mt-8 space-y-6">
                     {/* Nombre y Apellido */}
