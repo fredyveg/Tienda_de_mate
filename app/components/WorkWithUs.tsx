@@ -13,33 +13,26 @@ function InputField({ placeholder, type = "text" }: InputFieldProps) {
     />
   );
 }
-// Componente reutilizable para encabezado
-interface HeaderProps {
-  subtitle: string;
-  title: string;
-  description: string;
-}
-
-function Header({ subtitle, title, description }: HeaderProps) {
-  return (
-    <div className="text-center mb-6">
-      <p className="text-sm text-gray-500">{subtitle}</p>
-      <h1 className="text-3xl font-bold text-gray-800 mt-2 mb-4">{title}</h1>
-      <div className="bg-amber-500 h-0.5 w-16 mx-auto" />
-      <p className="text-gray-600 mt-4">{description}</p>
-    </div>
-  );
-}
-
 const WorkWithUs = () => {
   return (
     <div className="bg-white min-h-screen flex flex-col items-center py-10 px-4">
       <main className="w-full max-w-3xl bg-transparent rounded-lg shadow-none p-6">
-        <Header
-          subtitle="SUMATE A NUESTRO EQUIPO"
-          title="TRABAJÁ EN TDM"
-          description="Si querés formar parte de Tienda de Mate envíanos tus datos y adjunta tu CV"
-        />
+        {/* Header*/}
+        <div className="text-center mb-6">
+          <div className="text-lg text-[#c7a17a] text-opacity-0.5 font-light">
+            <span>{`SUMATE A NUESTRO EQUIPO`}</span>
+          </div>
+          <div className="mt-3 mb-4">
+            <strong className="text-3xl font-bold text-gray-800">TRABAJÁ EN TDM</strong>
+          </div>
+          <div className="bg-secundario-300 h-0.5 w-16 mx-auto" />
+          <div className="mt-4">
+            <span className="text-gray-600">
+              Si querés formar parte de Tienda de Mate envíanos tus datos y adjunta tu CV
+            </span>
+          </div>
+        </div>
+
 
         <form className="mt-8 space-y-6">
           {/* Nombre y Apellido */}
@@ -95,4 +88,4 @@ const WorkWithUs = () => {
   );
 };
 
-export { InputField, Header, WorkWithUs }; // Se Exportan los componentes
+export { InputField, WorkWithUs }; // Se Exportan los componentes
