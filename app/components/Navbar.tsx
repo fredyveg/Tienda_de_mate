@@ -1,7 +1,7 @@
 "use client";
 
 // React
-import React, { useState } from "react";
+import React, {useState} from "react";
 
 // Next UI
 import {
@@ -16,11 +16,11 @@ import {
 } from "@nextui-org/react";
 
 // Utils
-import { useWindowSize } from "@/hooks/useWindowSize";
-import { NAVBAR_ITEMS } from "../resources/constants";
+import {useWindowSize} from "@/hooks/useWindowSize";
+import {NAVBAR_ITEMS} from "../resources/constants";
 
 // Navegacion
-import { usePathname } from "next/navigation";
+import {usePathname} from "next/navigation";
 
 export default function CustomNavbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +29,7 @@ export default function CustomNavbar() {
   const pathname = usePathname();
 
   // Hook personalizado para revisar el ancho y alto de la ventana
-  const { width, height } = useWindowSize();
+  const {width} = useWindowSize();
 
   return (
     <Navbar
@@ -49,33 +49,34 @@ export default function CustomNavbar() {
           <p className="font-medium text-inherit text-3xl">DE MATE</p>
         </NavbarBrand>
       </NavbarContent>
-      <NavbarContent className="hidden xl:flex flex-row gap-96 pl-20">
-        <div>
-          <NavbarBrand
-            className="flex flex-col cursor-pointer select-none text-blanco"
-            as={Link}
-            href={width > 1280 ? "/" : "#"}
-          >
-            <p className="font-semibold text-inherit text-3xl">TIENDA</p>
-            <p className="font-normal text-inherit text-2xl">DE MATE</p>
-          </NavbarBrand>
-        </div>
-        <div className="flex flex-row gap-11 self-center">
-          {NAVBAR_ITEMS.map((item, index) => (
-            <NavbarItem
-              key={`${item}-${index}`}
-              isActive={pathname === item.path}
-            >
-              <Link
-                className="w-full text-blanco"
-                color="foreground"
-                href={item.path}
-                size="lg"
+      <NavbarContent className="hidden xl:block">
+        <div className="flex flex-row items-center justify-between w-10/12 pl-20">
+          <Link href={width > 1280 ? "/" : "#"}>
+            <div className="flex flex-col cursor-pointer select-none text-blanco w-4 text-center">
+              <p className="font-semibold text-inherit text-3xl">TIENDA</p>
+              <p className="font-normal text-inherit text-2xl whitespace-nowrap">
+                DE MATE
+              </p>
+            </div>
+          </Link>
+
+          <div className="flex flex-row gap-6 2xl:gap-11">
+            {NAVBAR_ITEMS.map((item, index) => (
+              <NavbarItem
+                key={`${item}-${index}`}
+                isActive={pathname === item.path}
               >
-                {item.label}
-              </Link>
-            </NavbarItem>
-          ))}
+                <Link
+                  className="w-full text-blanco"
+                  color="foreground"
+                  href={item.path}
+                  size="lg"
+                >
+                  {item.label}
+                </Link>
+              </NavbarItem>
+            ))}
+          </div>
         </div>
       </NavbarContent>
 
