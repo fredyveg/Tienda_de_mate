@@ -14,7 +14,7 @@ export default function OurMatePage() {
     <div
       className={`flex ${
         width > 1280 ? "flex-wrap" : "flex-col"
-      } w-full py-10 justify-around gap-10 px-4 xl:px-56`}
+      } w-full py-10 justify-around gap-10 items-center xl:px-52`}
     >
       {PRODUCTOS.map((product) => (
         <div
